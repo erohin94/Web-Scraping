@@ -1,0 +1,8 @@
+Парсинг сайта кинопоиск
+Данные записываются в csv файл
+
+Запустить виртуальное окружение
+Установить библиотеки
+pip install requests
+pip install beautifulsoup4
+pip install pandas
