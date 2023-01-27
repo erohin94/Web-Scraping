@@ -1,0 +1,9 @@
+Пример
+#pip install pandas openpyxl xlsxwriter xlrd
+import pandas as pd
+df = pd.DataFrame({
+    'Full name': ['Ivanov Ivan', 'Sidorov Sidor', 'Petrov Petr'],
+    'Department': ['Economics', 'Maths', 'Geography'],
+    'Budget': [2000000, 1000000,500000]
+})
+df.to_excel('who_is_who.xlsx')
